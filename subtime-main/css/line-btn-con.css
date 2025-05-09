@@ -1,0 +1,354 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.line-btn-con {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    gap: 8px;
+    padding: 10px 0px;
+    scroll-behavior: smooth;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    white-space: nowrap;
+    background-color: #b3b3b3;
+}
+
+.line-btn-con::-webkit-scrollbar {
+    display: none;
+}
+
+.line-btn-con button {
+    font-size: 20px;
+    flex: 0 0 auto;
+    user-select: none;
+    width: 138.67px;
+    height: 49px;
+    border-radius: 24.5px;
+    transition: background-color 0.3s;
+    cursor: pointer;
+}
+
+/* 메인 전철 */
+.main {
+    border: none;
+}
+
+/* 1호선 */
+.Line1 {
+    background-color: #015688;
+    color: #f1f2f2;
+}
+
+.Line1:hover, .Line1.active  {
+    background-color: #f1f2f2;
+    color: #015688;
+    font-weight: bold;
+}
+
+/* 2호선 */
+.Line2 {
+    background-color: #21B046;
+    color: #f1f2f2;
+}
+
+.Line2:hover, .Line2.active  {
+    background-color: #f1f2f2;
+    color: #21B046;
+    font-weight: bold;
+}
+
+/* 3호선 */
+.Line3 {
+    background-color: #F26522;
+    color: #f1f2f2;
+}
+
+.Line3:hover, .Line3.active  {
+    background-color: #f1f2f2;
+    color: #F26522;
+    font-weight: bold;
+}
+
+/* 4호선 */
+.Line4 {
+    background-color: #00A0CC;
+    color: #f1f2f2;
+}
+
+.Line4:hover, .Line4.active  {
+    background-color: #f1f2f2;
+    color: #00A0CC;
+    font-weight: bold;
+}
+
+/* 5호선 */
+.Line5 {
+    background-color: #7851A1;
+    color: #f1f2f2;
+}
+
+.Line5:hover, .Line5.active  {
+    background-color: #f1f2f2;
+    color: #7851A1;
+    font-weight: bold;
+}
+
+/* 6호선 */
+.Line6 {
+    background-color: #6B3D24;
+    color: #f1f2f2;
+}
+
+.Line6:hover, .Line6.active  {
+    background-color: #f1f2f2;
+    color: #6B3D24;
+    font-weight: bold;
+}
+
+/* 7호선 */
+.Line7 {
+    background-color: #6A6F37;
+    color: #f1f2f2;
+}
+
+.Line7:hover, .Line7.active  {
+    background-color: #f1f2f2;
+    color: #6A6F37;
+    font-weight: bold;
+}
+
+/* 8호선 */
+.Line8 {
+    background-color: #ED0973;
+    color: #f1f2f2;
+}
+
+.Line8:hover, .Line8.active  {
+    background-color: #f1f2f2;
+    color: #ED0973;
+    font-weight: bold;
+}
+
+/* 9호선 */
+.Line9 {
+    background-color: #9E9889;
+    color: #f1f2f2;
+}
+
+.Line9:hover, .Line9.active  {
+    background-color: #f1f2f2;
+    color: #9E9889;
+    font-weight: bold;
+}
+
+/* 도시 철도 */
+.city {
+    border: 2px solid #f1f2f2;
+}
+
+/* 경의·중앙선 */
+.Line10 {
+    background-color: #65C5B4;
+    color: #f1f2f2;
+}
+
+.Line10:hover, .Line10.active  {
+    background-color: #f1f2f2;
+    color: #65C5B4;
+    border: 2px solid #65C5B4;
+    font-weight: bold;
+}
+
+/* 신분당선 */
+.Line11 {
+    background-color: #C1353C;
+    color: #f1f2f2;
+}
+
+.Line11:hover, .Line11.active  {
+    background-color: #f1f2f2;
+    color: #C1353C;
+    border: 2px solid #C1353C;
+    font-weight: bold;
+}
+
+/* 수인·분당선 */
+.Line12 {
+    background-color: #EB9D28;
+    color: #f1f2f2;
+}
+
+.Line12:hover, .Line12.active  {
+    background-color: #f1f2f2;
+    color: #EB9D28;
+    border: 2px solid #EB9D28;
+    font-weight: bold;
+}
+
+/* 공항철도 */
+.Line13 {
+    background-color: #006B93;
+    color: #f1f2f2;
+}
+
+.Line13:hover, .Line13.active  {
+    background-color: #f1f2f2;
+    color: #006B93;
+    border: 2px solid #006B93;
+    font-weight: bold;
+}
+
+/* 인천1호선 */
+.Line14 {
+    background-color: #82B0E2;
+    color: #f1f2f2;
+}
+
+.Line14:hover, .Line14.active  {
+    background-color: #f1f2f2;
+    color: #82B0E2;
+    border: 2px solid #82B0E2;
+    font-weight: bold;
+}
+
+/* GTX-A */
+.Line15 {
+    background-color: #A06390;
+    color: #f1f2f2;
+}
+
+.Line15:hover, .Line15.active  {
+    background-color: #f1f2f2;
+    color: #A06390;
+    border: 2px solid #A06390;
+    font-weight: bold;
+}
+/* 경전철 */
+.mini {
+    border: 3px double #f1f2f2;
+}
+
+/* 의정부경전철 */
+.Line16 {
+    background-color: #DF7627;
+    color: #f1f2f2;
+}
+
+.Line16:hover, .Line16.active  {
+    background-color: #f1f2f2;
+    color: #DF7627;
+    border: 3px double #DF7627;
+    font-weight: bold;
+}
+
+/* 우이신설선 */
+.Line17 {
+    background-color: #B5C834;
+    color: #f1f2f2;
+}
+
+.Line17:hover, .Line17.active  {
+    background-color: #f1f2f2;
+    color: #B5C834;
+    border: 3px double #B5C834;
+    font-weight: bold;
+}
+
+/* 김포골드라인 */
+.Line18 {
+    background-color: #907135;
+    color: #f1f2f2;
+}
+
+.Line18:hover, .Line18.active  {
+    background-color: #f1f2f2;
+    color: #907135;
+    border: 3px double #907135;
+    font-weight: bold;
+}
+
+/* 인천2호선 */
+.Line19 {
+    background-color: #F89F6A;
+    color: #f1f2f2;
+}
+
+.Line19:hover, .Line19.active  {
+    background-color: #f1f2f2;
+    color: #F89F6A;
+    border: 3px double #F89F6A;
+    font-weight: bold;
+}
+
+/* 용인에버라인 */
+.Line20 {
+    background-color: #75B443;
+    color: #f1f2f2;
+}
+
+.Line20:hover, .Line20.active  {
+    background-color: #f1f2f2;
+    color: #75B443;
+    border: 3px double #75B443;
+    font-weight: bold;
+}
+
+/* 신림선 */
+.Line21 {
+    background-color: #5481C1;
+    color: #f1f2f2;
+}
+
+.Line21:hover, .Line21.active  {
+    background-color: #f1f2f2;
+    color: #5481C1;
+    border: 3px double #5481C1;
+    font-weight: bold;
+}
+/* 간선철도 */
+.trunk {
+    border: 2px dashed #f1f2f2;
+}
+
+/* 경춘선 */
+.Line22 {
+    background-color: #006755;
+    color: #f1f2f2;
+}
+
+.Line22:hover, .Line22.active  {
+    background-color: #f1f2f2;
+    color: #006755;
+    border: 2px dashed #006755;
+    font-weight: bold;
+}
+
+/* 경강선 */
+.Line23 {
+    background-color: #32386B;
+    color: #f1f2f2;
+}
+
+.Line23:hover, .Line23.active  {
+    background-color: #f1f2f2;
+    color: #32386B;
+    border: 2px dashed #32386B;
+    font-weight: bold;
+}
+
+/* 서해선 */
+.Line24 {
+    background-color: #59AA47;
+    color: #f1f2f2;
+}
+
+.Line24:hover, .Line24.active  {
+    background-color: #f1f2f2;
+    color: #59AA47;
+    border: 2px dashed #59AA47;
+    font-weight: bold;
+}
